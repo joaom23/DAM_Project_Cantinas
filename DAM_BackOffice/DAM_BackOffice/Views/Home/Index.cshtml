@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-@ViewBag.Type alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        @ViewBag.Message
+    </div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Plataforma de apoio a cantinas da UTAD</h1>
+    <img src="~/Imagens/cantina.png"  height="400"/>
+</div>

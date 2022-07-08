@@ -1,0 +1,67 @@
+﻿@model DAM_BackOffice.Models.Cantina
+
+@{
+    ViewData["Title"] = "EditarPrato";
+}
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-@ViewBag.Type alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        @ViewBag.Message
+    </div>
+}
+<h1>Editar Prato</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditarCantinas" asp-controller="Admin" enctype="multipart/form-data">
+            <input type="hidden" value="@Model.IdCantina" name="IdCantina" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Morada" class="control-label"></label>
+                <input asp-for="Morada" class="form-control" />
+                <span asp-validation-for="Morada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Hora de Abertura</label>
+                <input asp-for="HoraAbertura" type="time" class="form-control" />
+                <span asp-validation-for="HoraAbertura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Hora de Fecho</label>
+                <input asp-for="HoraFecho" type="time" class="form-control" />
+                <span asp-validation-for="HoraFecho" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Latitude</label>
+                <input asp-for="Localizacao.Latitude" class="form-control" />
+                <span asp-validation-for="Localizacao.Latitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Longitude</label>
+                <input asp-for="Localizacao.Longitude" class="form-control" />
+                <span asp-validation-for="Localizacao.Longitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Foto</label>
+                <input asp-for="FotoFile" type="file" class="form-control" onchange="esconder(); showBanner(this)" />
+                <span asp-validation-for="FotoFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-primary" asp-action="Cantinas" asp-controller="AdminCantina">Voltar</a>
+</div>
+

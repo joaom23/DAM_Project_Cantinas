@@ -1,0 +1,53 @@
+﻿@using DAM_BackOffice.Models.Dtos
+@model ReturnPratosDto
+
+@{
+    ViewData["Title"] = "Pratos";
+}
+
+<h1>Pratos</h1>
+
+@if (Model.Pratos.Count() > 0)
+{
+    <table class="table table-borderless">
+        <tbody>
+            @foreach (var item in Model.Pratos)
+            {
+                <tr>
+
+                    <td>
+                        <div style="position:relative; padding:10px;">
+                            <a asp-action="EditarPrato" asp-controller="AdminCantina" asp-route-IdPrato = "@item.IdPrato" style="text-decoration: none;">
+                                <div>
+                                    @Html.DisplayFor(modelItem => item.Descricao)
+                                </div>
+                                <div>
+                                    <img style="border-radius:10%; box-shadow:2px 2px 4px grey;" src="http://localhost:56069/api/users/getimage/pratos/@item.Foto" height="70" />
+                                </div>
+                            </a>
+                        </div>
+                    </td>
+
+                    <td>
+                    </td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+}
+else
+{
+<div>
+    <p>Ainda não existe nenhum prato, clique <a asp-action="AdicionarPrato" asp-controller="AdminCantina">aqui</a> para adicionar um prato. </p>
+</div>
+}
+
+<div>
+    <a class="btn btn-success" asp-action="AdicionarPrato" asp-controller="AdminCantina">Adicionar Prato</a>
+</div>
+<br />
+<div>
+    <a class="btn btn-primary" asp-action="Index" asp-controller="Home">Voltar</a>
+</div>

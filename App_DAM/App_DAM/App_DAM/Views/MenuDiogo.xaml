@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_DAM.Views.MenuDiogo"
+             Title="Cantinas">
+    <ListView  HasUnevenRows="True" ItemsSource="{Binding Cantinas}" SelectionMode="None" ItemTapped="ListView_ItemTapped">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="80"></RowDefinition>
+                                <RowDefinition Height="0"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0"  VerticalOptions="Start" Text="{Binding  Morada}" TextColor="Black" Padding="5" FontSize="20" />
+                            <Label Grid.Row="0" Text="{Binding IdCantina}" />
+                       
+
+                            <Label Grid.Row="0" Text="{Binding HoraAbertura}" Padding="5" HorizontalOptions="End" TextColor="Black"/>
+                            <Label Grid.Row="0" Text="{Binding HoraFecho}" HorizontalOptions="End" VerticalOptions="End" Padding="5" FontSize="18"/>
+
+                        </Grid>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

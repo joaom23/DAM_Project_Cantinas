@@ -1,0 +1,52 @@
+﻿@using DAM_BackOffice.Controllers;
+@using Microsoft.AspNetCore.Http;
+@using System.Net.Http;
+@using System.Net.Http.Headers;
+
+@if (UtilizadoresController.Autenticado(Context))
+{
+
+<div id="menu" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <img src="http://localhost:56069/api/users/getimage/pratos/Peaky220522473.jpg" height="70" style="border-radius: 50%; margin-left: auto; margin-right: auto; display: block;" />
+
+    @if (Context.Session.GetString("Role") == "Cliente")
+    {
+        <a>Cliente</a>
+    }
+    else if (Context.Session.GetString("Role") == "Admin")
+    {
+        <a asp-action="RegistAdminCantina" asp-controller="Admin">Criar Admin Cantina</a>
+        <a asp-action="CriarCantinas" asp-controller="Admin">Criar Cantinas</a>
+        <a asp-action="Cantinas" asp-controller="AdminCantina">Gerir Cantinas</a>
+        <a asp-action="ManageUsers" asp-controller="Admin">Gerir Utilizadores</a>
+    }
+    else if (Context.Session.GetString("Role") == "AdminCantina")
+    {
+        <a asp-action="Pratos" asp-controller="AdminCantina">Pratos</a>
+        <a asp-action="Cantinas" asp-controller="AdminCantina">Cantinas</a>
+    }
+</div>
+
+    <span id="botaoAbrir" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+}
+
+<script>
+    function openNav() {
+        document.getElementById("menu").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("menu").style.width = "0";
+    }
+
+    document.onclick = function (e) {
+    
+        if (e.target.id !== "menu" && e.target.id !== "botaoAbrir") {
+            closeNav();
+            }
+    }
+
+    
+</script>

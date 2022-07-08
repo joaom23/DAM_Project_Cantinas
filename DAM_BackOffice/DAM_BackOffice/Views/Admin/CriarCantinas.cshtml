@@ -1,0 +1,66 @@
+﻿@model DAM_BackOffice.Models.Dtos.CantinaDto
+
+@{
+    ViewData["Title"] = "Criar Cantinas";
+}
+
+<h1>Criar Cantina</h1>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-@ViewBag.Type alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        @ViewBag.Message
+    </div>}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CriarCantinas" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Morada" class="control-label"></label>
+                <input asp-for="Morada" class="form-control" />
+                <span asp-validation-for="Morada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraAbertura" class="control-label"></label>
+                <input asp-for="HoraAbertura" type="time" class="form-control" />
+                <span asp-validation-for="HoraAbertura" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraFecho" class="control-label"></label>
+                <input asp-for="HoraFecho" type="time" class="form-control" />
+                <span asp-validation-for="HoraFecho" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Latitude" class="control-label"></label>
+                <input asp-for="Latitude" class="form-control" />
+                <span asp-validation-for="Latitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Longitude" class="control-label"></label>
+                <input asp-for="Longitude" class="form-control" />
+                <span asp-validation-for="Longitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Foto</label>
+                <input asp-for="FotoFile" type="file" class="form-control" onchange="esconder(); showBanner(this)" />
+                <span asp-validation-for="FotoFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" style="background-color: #ffa63a; border-color:white;" value="Adicionar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-primary">Voltar</a>
+</div>
+

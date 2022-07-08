@@ -1,0 +1,40 @@
+﻿@using DAM_BackOffice.Controllers;
+@using Microsoft.AspNetCore.Http;
+
+<ul class="navbar-nav">
+    @if (UtilizadoresController.Autenticado(Context))
+    {
+        if (Context.Session.GetString("Role") == "Admin")
+        {
+            <p style="cursor:pointer;" class="nav-link text-dark dropbtn"> <i class="fa fa-user" aria-hidden="true"></i> Bem vindo admin, @Context.Session.GetString("NomeAdmin")</p>
+        }
+        else
+        {
+            <p style="cursor:pointer;" class="nav-link text-dark dropbtn"> <i class="fa fa-user" aria-hidden="true"></i> Bem vindo, @Context.Session.GetString("Email")</p>
+        }
+
+        <li class="nav-item">
+            <a id="log" asp-area="" asp-controller="Utilizadores" asp-action="Logout">Logout  <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+        </li>
+    }
+    else
+    {
+        @*@if (ViewBag.Admin == false)
+        {
+            <li class="nav-item">
+                <a id="regista" asp-controller="Utilizadores" asp-action="RegistAdmin">Registar Admin</a>
+            </li>
+        }*@
+
+        <li class="nav-item">
+            <a id="regista" asp-controller="Utilizadores" asp-action="Register">Registar</a>
+        </li>
+
+        <li class="nav-item">
+            <a id="log" asp-controller="Utilizadores" asp-action="Login">Login  <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+        </li>
+    }
+</ul>
+
+
+

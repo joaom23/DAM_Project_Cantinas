@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_DAM.Views.MenuCliente"
+             BackgroundColor="Coral"
+             Title="Menu">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!--<Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>-->
+
+                <StackLayout Grid.Row="3">
+                    <Image Source="{Binding FotoUser}" HeightRequest="60" WidthRequest="60" ></Image>
+                </StackLayout>
+
+                <StackLayout Grid.Row="6">
+                    <Button Command="{Binding CantinasCommand}" WidthRequest="300" Text="Cantinas" TextColor="White" BackgroundColor="Orange" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+                </StackLayout>
+
+                <StackLayout Grid.Row="7">
+                    <Button Command="{Binding QRCodesPageCommand}" WidthRequest="300" Text="QR Codes" TextColor="White" BackgroundColor="Orange" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+                </StackLayout>
+
+                <StackLayout Grid.Row="14">
+                    <Button Text="Logout" Command="{Binding LogoutCommand}" BackgroundColor="Orange" HorizontalOptions="Center" VerticalOptions="EndAndExpand" FontSize="Large"/>
+                </StackLayout>
+
+
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

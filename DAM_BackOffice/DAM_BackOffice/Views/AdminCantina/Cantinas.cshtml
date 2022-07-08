@@ -1,0 +1,61 @@
+﻿@using DAM_BackOffice.Models.Dtos
+@using DAM_BackOffice.Models.Dtos
+@using DAM_BackOffice.Controllers;
+@using Microsoft.AspNetCore.Http;
+@using System.Net.Http;
+@using System.Net.Http.Headers;
+@model ReturnCantinasDto
+
+@{ ViewData["Title"] = "Cantinas"; }
+
+<h1>Cantinas</h1>
+
+@if (Model.Cantinas.Count() > 0)
+{
+<table class="table table-borderless">
+    <tbody>
+        @foreach (var item in Model.Cantinas)
+        {
+<tr>
+
+    <td>
+        <div style="position:relative; padding:10px;">
+            @if (Context.Session.GetString("Role") == "Admin")
+            {
+        <a asp-action="EditarCantinas" asp-controller="Admin" asp-route-IdCantina="@item.IdCantina" style="text-decoration: none;">
+            <div>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </div>
+            <div>
+                <img style="border-radius:10%; box-shadow:2px 2px 4px grey;" src="http://localhost:56069/api/users/getimage/cantinas/@item.Foto" height="70" />
+            </div>
+        </a>
+    }
+    else
+    {
+        <a asp-action="PratosDia" asp-controller="AdminCantina" asp-route-IdCantina="@item.IdCantina" style="text-decoration: none;">
+            <div>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </div>
+            <div>
+                <img style="border-radius:10%; box-shadow:2px 2px 4px grey;" src="http://localhost:56069/api/users/getimage/cantinas/@item.Foto" height="70" />
+            </div>
+        </a>
+    }
+
+        </div>
+    </td>
+
+    <td>
+    </td>
+</tr>}
+
+
+    </tbody>
+</table>}
+
+
+<br />
+<div>
+    <a class="btn btn-primary" asp-action="Index" asp-controller="Home">Voltar</a>
+</div>

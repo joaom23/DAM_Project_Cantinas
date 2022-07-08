@@ -1,0 +1,66 @@
+﻿@model DAM_BackOffice.Models.Dtos.RegisterDto
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Registar</h1>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-@ViewBag.Type alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        @ViewBag.Message
+    </div>
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Register" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input id="password1" asp-for="Password" type="password" class="form-control" />
+                <i class="bi bi-eye-slash" id="1" style="position:relative; margin-left: 90%; top:-30px; cursor:pointer;" onclick="showPassword(this.id)"></i>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Confirmar Password</label>
+                <input id="password2" asp-for="ConfirmPassword" type="password" class="form-control" />
+                <i class="bi bi-eye-slash" id="2" style="position:relative; margin-left: 90%; top:-30px; cursor:pointer;" onclick="showPassword(this.id)"></i>
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" style="background-color: #ffa63a; border-color:white;" value="Registar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-outline-info" asp-action="Index" asp-controller="Home">Voltar</a>
+</div>
+
+@section Scripts {
+    <script>
+        function showPassword(id) {
+            var button = document.getElementById(id);
+            var x = document.getElementById("password" + id);
+            if (x.type === "password") {
+                x.type = "text";
+                button.classList.add("bi-eye");
+            } else {
+                x.type = "password";
+                button.classList.remove("bi-eye");
+            }
+        }
+    </script>
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,48 @@
+﻿@using DAM_BackOffice.Models.Dtos
+@model ReturnPratosDto
+
+@{
+    ViewData["Title"] = "Pratos";
+}
+
+<h1>Escolha prato para o dia @ViewBag.data</h1>
+
+@if (Model.Pratos.Count() > 0)
+{
+    <table class="table table-borderless">
+        <tbody>
+            @foreach (var item in Model.Pratos)
+            {
+                <tr>
+                    <td>
+                        <div style="position:relative; padding:10px;">   
+                            <form asp-action="AssociarPratoDia" asp-controller="AdminCantina" asp-route-IdPrato="@item.IdPrato" asp-route-IdCantina="@ViewBag.IdCantina" asp-route-Data="@ViewBag.Data">
+                                <div>
+                                    <button type="submit" class="btn btn-success" style="text-decoration: none;">@Html.DisplayFor(modelItem => item.Descricao)</button>
+                                </div>
+                                <br />
+                                <div>
+                                    <img style="border-radius:10%; box-shadow:2px 2px 4px grey;" src="http://localhost:56069/api/users/getimage/pratos/@item.Foto" height="70" />
+                                </div>
+                            </form>
+                            </div>
+                    </td>
+             
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+}
+else
+{
+<div>
+    <p>Ainda não existe nenhum prato, clique <a asp-action="AdicionarPrato" asp-controller="AdminCantina">aqui</a> para adicionar um prato. </p>
+</div>
+}
+
+<br />
+<div>
+    <a class="btn btn-primary" asp-action="PratosDia" asp-controller="AdminCantina" asp-route-IdCantina="@ViewBag.IdCantina" asp-route-Data="@ViewBag.Data">Voltar</a>
+</div>

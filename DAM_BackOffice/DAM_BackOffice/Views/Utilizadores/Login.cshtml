@@ -1,0 +1,93 @@
+﻿@model DAM_BackOffice.Models.Dtos.LoginDto
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" autocomplete="off" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input id="password" asp-for="Password" autocomplete="off" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <i class="bi bi-eye-slash" id="togglePassword" style="position:relative; margin-left: 90%; top:-30px; cursor:pointer;" onclick="showPassword()"></i>
+            </div>
+            <div class="form-group">
+                <input type="submit" style="background-color: #ffa63a; border-color:white;" value="Login" class="btn btn-primary" />
+            </div>
+            <br />
+            <div>
+                <a onclick="openForm()" class="open-form">Esqueci-me da palavra-passe</a>
+                <br />
+                <br />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <p>Não tem conta? Crie uma nova conta <a style="color: #ffa63a; " asp-action="Register" asp-controller="Utilizadores">aqui</a> </p>
+</div>
+
+<div class="form-popup" id="emailForm" style="display: none;">
+    <form asp-action="SubmeterEmailRecuperarPassword" class="form-popup-content">
+        <label><b>Esqueci-me da palavra-passe</b></label>
+        <br />
+        <label>Por favor insira o endereço de e-mail associado à sua conta</label>
+        <br />
+        <input type="text" placeholder="Endereço de e-mail" name="Email" required style="width: 40%;">
+        <br />
+        <span class="close-form" onclick="closeForm()">&times;</span>
+        <br />
+        <input type="submit" value="Ok" class="btn btn-success" style="width: 30%;" />
+    </form>
+</div>
+
+<div>
+    <a class="btn btn-outline-info" asp-action="Index" asp-controller="Home">Voltar</a>
+</div>
+
+<br />
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-@ViewBag.Type alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        @ViewBag.Message
+    </div>
+}
+
+@section Scripts {
+    <script>
+        function openForm() {
+            document.getElementById("emailForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("emailForm").style.display = "none";
+        }
+
+
+        function showPassword() {
+            var button = document.getElementById("togglePassword");
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+                button.classList.add("bi-eye");
+            } else {
+                x.type = "password";
+                button.classList.remove("bi-eye");
+            }
+        }
+    </script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

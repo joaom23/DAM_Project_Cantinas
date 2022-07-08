@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_DAM.Views.InformacaoPratoDiaAdminCantina"
+             Title="{Binding NomeCantina}">
+
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+            <Label Text="{Binding Data}" FontSize="30" HorizontalOptions="Center"></Label>
+            <Grid VerticalOptions="Center">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Label Grid.Row="5" Text="{Binding RefeicoesMarcadas}" FontSize="20"></Label>
+                <Label Grid.Row="6" Text="{Binding RefeicoesConsumidas}" FontSize="20"></Label>
+        <Button Grid.Row="7" Text="Ler QR CODE" Clicked="LerQRCode" BackgroundColor="Green" TextColor="White"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

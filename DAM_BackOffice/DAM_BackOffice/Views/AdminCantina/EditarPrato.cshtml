@@ -1,0 +1,47 @@
+﻿@model DAM_BackOffice.Models.Prato
+
+@{
+    ViewData["Title"] = "EditarPrato";
+}
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-@ViewBag.Type alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        @ViewBag.Message
+    </div>
+}
+<h1>Editar Prato</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditarPrato" enctype="multipart/form-data">
+            <input type="hidden" value="@Model.IdPrato" name="IdPrato" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Descrição</label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Foto</label>
+                <input asp-for="FotoFile" type="file" class="form-control" onchange="esconder(); showBanner(this)" />
+                <span asp-validation-for="FotoFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Preço</label>
+                <input asp-for="Preco" class="form-control" />
+                <span asp-validation-for="Preco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-primary" asp-action="Pratos" asp-controller="AdminCantina">Voltar</a>
+</div>
+

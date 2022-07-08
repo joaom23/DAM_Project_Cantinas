@@ -1,0 +1,91 @@
+﻿@using DAM_BackOffice.Models.Dtos
+@using DAM_BackOffice.Controllers;
+@using Microsoft.AspNetCore.Http;
+@using System.Net.Http;
+@using System.Net.Http.Headers;
+@model PratoDiaDto
+
+<div>
+    <input type="date" id="registrationday" name="registrationday" /><br />
+
+    @if (ViewBag.Message != null)
+    {
+<div class="alert alert-@ViewBag.Type alert-dismissible" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    @ViewBag.Message
+</div>}
+
+    @if (Model != null)
+    {
+@if (Model.Prato != null)
+{
+<h1>Prato para o dia @ViewBag.Data</h1>
+
+                        <table class="table table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div style="position:relative; padding:10px;">
+                                            <div>
+                                                @Html.DisplayFor(modelItem => Model.Prato.Descricao)
+                                            </div>
+                                            <div>
+                                                <img style="border-radius:10%; box-shadow:2px 2px 4px grey;" src="http://localhost:56069/api/users/getimage/pratos/@Model.Prato.Foto" height="70" />
+                                            </div>
+                                            <br />
+                                            <div>
+                                                <p>Refeições Marcadas: @Html.DisplayFor(modelItem => Model.RefeicoesMarcadas)</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>}}
+
+    @if (Model != null)
+    {
+        if (Model.Prato != null)
+        {
+<div>
+    <br /><a class="btn btn-success" asp-action="AssociarPratoDia" asp-controller="AdminCantina" asp-route-IdCantina="@ViewBag.CantinaId" asp-route-Data="@ViewBag.Data">Mudar Prato para este dia</a>
+</div> }
+else
+{
+<div>
+    <br /><a class="btn btn-success" asp-action="AssociarPratoDia" asp-controller="AdminCantina" asp-route-IdCantina="@ViewBag.CantinaId" asp-route-Data="@ViewBag.Data">Adicionar Prato para este dia</a>
+</div>}
+}
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        //document.getElementById("registrationday").value = getDay();
+        var data = document.getElementById("registrationday");
+
+        function getDay() {
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, "0");
+            var mm = String(today.getMonth() + 1).padStart(2, "0");
+            var yyyy = today.getFullYear();
+
+            today = yyyy + "-" + mm + "-" + dd;
+            return today;
+        }
+
+        data.addEventListener("change", function () {
+            //document.getElementById("data").value = getDay();
+            var data = document.getElementById("registrationday").value
+            console.log(data);
+            var cantinaId = @ViewBag.CantinaId;
+            //window.location.href = '@Url.Action("PratosDia", "AdminCantina", new { IdCantina = ViewBag.CantinaId})&data=' + data;
+            window.location.href = '@Url.Action("PratosDia", "AdminCantina")?IdCantina=' + cantinaId +'&Data=' + data;
+        });
+
+
+
+        data.setAttribute('min', getDay())
+    });
+
+</script>

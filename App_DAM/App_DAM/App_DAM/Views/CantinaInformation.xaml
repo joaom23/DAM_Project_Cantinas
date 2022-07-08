@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_DAM.Views.CantinaInformation"
+             Title="{Binding Titulo}">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                    <!--<Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>-->
+
+                <Label Grid.Row="0"  Text="Escolha uma data:" HorizontalOptions="Center" FontSize="20"/>
+                <DatePicker Grid.Row="1"  MinimumDate="{Binding Hoje}" Date="{Binding DataEscolhida, Mode=TwoWay}" HorizontalOptions="Center"/>
+
+                    <Label Grid.Row="2"  Text="{Binding Nome}" HorizontalOptions="Center" FontSize="30"/>
+
+                    <Image Grid.Row="3"  Source="{Binding Imagem}" HorizontalOptions="Center"/>
+
+                    <Label Grid.Row="3"  Text="{Binding Mensagem}" HorizontalOptions="Center" FontSize="25"/>
+
+                    <Label Grid.Row="4"  Text="{Binding Preco}" HorizontalOptions="Center" FontSize="30"/>
+
+                    <Button Grid.Row="7" IsVisible="{Binding VerBotaoReserva}" Command="{Binding FazerReservaCommand}" Text="Marcar Refeição" HorizontalOptions="Center" FontSize="25" TextTransform="None" BackgroundColor="Green" TextColor="White"/>
+                    <Button Grid.Row="7" IsVisible="{Binding VerBotaoRemoverReserva}" Command="{Binding RemoverReservaCommand}" Text="Anular Refeição" HorizontalOptions="Center" FontSize="25" TextTransform="None" BackgroundColor="OrangeRed" TextColor="White"/>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

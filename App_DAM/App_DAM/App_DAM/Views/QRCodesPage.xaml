@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_DAM.Views.QRCodesPage"
+             x:Name="ListaQRCodes"
+             Title="Suas Reservas">
+    <ContentPage.Content>
+        <ListView  HasUnevenRows="True" ItemsSource="{Binding QRCodes}" SelectionMode="None">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference ListaQRCodes}, Path= BindingContext.ShowQRCodeCommand}" CommandParameter="{Binding .}"/>
+                            </StackLayout.GestureRecognizers>
+
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="120"></RowDefinition>
+                                    <RowDefinition Height="0"></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.Row="0"  VerticalOptions="Center" Text="{Binding NomeCantina}" TextColor="Black" Padding="5" FontSize="20" />
+                                <Label Grid.Row="0"  VerticalOptions="Center" Text="{Binding Data}" TextColor="Black" Padding="5" FontSize="20" HorizontalOptions="End"/>
+
+                            </Grid>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

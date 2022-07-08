@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_DAM.Views.VerQRCode"
+             xmlns:zxing ="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" 
+             xmlns:zxingcommon="clr-namespace:ZXing.Common;assembly=zxing.portable">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Nome}" FontSize="30" HorizontalOptions="Center"/>
+            <Label Text="{Binding Data}" FontSize="30" HorizontalOptions="Center"/>
+            <zxing:ZXingBarcodeImageView BarcodeValue="{Binding QRCode}" WidthRequest="500" HeightRequest="500">
+                <zxing:ZXingBarcodeImageView.BarcodeOptions>
+                    <zxingcommon:EncodingOptions Height="500" Width="500"/>
+                </zxing:ZXingBarcodeImageView.BarcodeOptions>
+            </zxing:ZXingBarcodeImageView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

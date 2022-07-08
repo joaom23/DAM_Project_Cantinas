@@ -1,0 +1,197 @@
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.AssemblyReference.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.AssemblyInfoInputs.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.AssemblyInfo.cs
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.CoreCompileInputs.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.exe
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.deps.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.runtimeconfig.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.runtimeconfig.dev.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.pdb
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\staticwebassets\DAM_API.StaticWebAssets.Manifest.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\staticwebassets\DAM_API.StaticWebAssets.xml
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\scopedcss\bundle\DAM_API.styles.css
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.RazorTargetAssemblyInfo.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.CopyComplete
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.pdb
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.genruntimeconfig.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.exe
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.deps.json
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.runtimeconfig.json
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.runtimeconfig.dev.json
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.pdb
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.AssemblyInfo.cs
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\staticwebassets\DAM_API.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\staticwebassets\DAM_API.StaticWebAssets.xml
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\scopedcss\bundle\DAM_API.styles.css
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.CopyComplete
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.dll
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.pdb
+C:\Users\user\Desktop\git\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.genruntimeconfig.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.exe
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.deps.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.runtimeconfig.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.runtimeconfig.dev.json
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\DAM_API.pdb
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.AssemblyInfoInputs.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.AssemblyInfo.cs
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.CoreCompileInputs.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\staticwebassets\DAM_API.StaticWebAssets.Manifest.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\staticwebassets\DAM_API.StaticWebAssets.xml
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\scopedcss\bundle\DAM_API.styles.css
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.RazorTargetAssemblyInfo.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.CopyComplete
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.pdb
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.genruntimeconfig.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\obj\Debug\netcoreapp3.1\DAM_API.csproj.AssemblyReference.cache
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\SendGrid.dll
+C:\Users\jmfer\OneDrive\Ambiente de Trabalho\DAM_Project-main\DAM_API\DAM_API\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll

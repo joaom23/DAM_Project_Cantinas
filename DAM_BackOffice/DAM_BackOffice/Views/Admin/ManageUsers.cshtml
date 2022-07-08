@@ -1,0 +1,122 @@
+﻿@model IEnumerable<DAM_BackOffice.Models.Utilizador>
+
+@{
+    ViewData["Title"] = "GerirClientes";
+}
+
+<h1>Gerir Clientes</h1>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-@ViewBag.Type alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        @ViewBag.Message
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                Role
+            </th>
+            <th>
+
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @if (item.AdminCantina != null)
+                {
+                    <p>Admin Cantina</p>
+                }
+                @if(item.Customer != null)
+                {
+                <p>Cliente</p>
+                }
+
+            </td>
+            @*<td>
+            <img src="http://127.0.0.1:2626/api/cliente/ImageGetUser/@item.Foto" height="70" style="margin-left: auto; margin-right: auto; display: block;" />
+            </td>*@
+            <td>
+                @if (item.Suspenso == false)
+                {
+                    <p style="color:forestgreen">Conta Ativa</p>
+                }
+                else if (item.Suspenso == true)
+                {
+                    <p style="color:darkred">Conta Suspensa</p>
+                }
+            </td>
+            <td>
+                @if (item.Suspenso == false)
+                {
+                    <a id="@item.Id" class="btn btn-danger" onclick="openForm(this.id)" style="cursor:pointer; color:white;">Suspender</a>
+                }
+                else
+                {
+                    <form asp-action="RemoverSuspensaoCliente" asp-route-userId="@item.Id">
+                        <input type="submit" value="Desbloquear" class="btn btn-warning" onclick="return confirm('Tem a certeza que quer desbloquear o utilizador ?');" style="cursor:pointer; color:white;" />
+                    </form>
+                }
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<div class="form-popup" id="suspenderForm" style="display: none;">
+    <form asp-action="SuspenderCliente" class="form-popup-content" autocomplete="off">
+        <label><b>Suspender Cliente</b></label>
+        <br />
+        <input type="text" placeholder="Motivo da suspensão" name="Motivo" required style="width: 40%;">
+        <input id="userId" type="text" placeholder="Motivo" name="userId" hidden>
+        <br />
+        <br />
+        <input type="text" placeholder="Número de dias" name="Dias" required style="width: 20%;">
+        <br />
+        <span class="close-form" onclick="closeForm()">&times;</span>
+        <br />
+        <input type="submit" value="Suspender" class="btn btn-danger" style="width: 30%;" />
+    </form>
+</div>
+
+<div>
+    <a class="btn btn-outline-info" asp-action="Index" asp-controller="Home">Voltar</a>
+</div>
+
+@section Scripts {
+    <script>
+        function openForm(id) {
+            document.getElementById("suspenderForm").style.display = "block";
+
+            $("#userId").val(id);
+
+        }
+
+        function closeForm() {
+            document.getElementById("suspenderForm").style.display = "none";
+        }
+    </script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
